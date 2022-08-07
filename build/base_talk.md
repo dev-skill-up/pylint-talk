@@ -40,7 +40,36 @@ ancestral homeland
 of the
 Ramaytush Ohlone people.
 
-## The Good (3m)
+## The Good
+
+Hot take:
+PyLint is good actually!
+
+"PyLint can save your life"
+is an exaggeration,
+for the most part.
+But not as much as you might think!
+
+PyLint can keep you from
+*really*
+*really*
+hard to find,
+complicated,
+bugs.
+
+At worst,
+it will save you the time of a test run.
+At best,
+it can help you avoid complicated production mistakes.
+
+```{=latex}
+\begin{frame}[fragile]
+\frametitle{PyLint}
+
+\pause
+...is good actually.
+\end{frame}
+```
 
 ### Redefine function
 
@@ -67,6 +96,11 @@ def test_add_small():
 \end{frame}
 ```
 
+I...am embarassed to say how common this can be.
+Naming tests is weird:
+*nothing cares about the names*
+and there's often not a natural name.
+
 ### Test works
 
 ```{=latex}
@@ -86,6 +120,30 @@ test.py ..
 \end{frame}
 ```
 
+But,
+and here is the kicker,
+if you override a name,
+the testing infrastructure will happily just skip over the test!
+
+In reality,
+these files can be hundreds of lines long,
+and the person adding the new test might not be aware
+of all the names.
+Unless someone is looking at test output carefully everything looks
+fine.
+
+Worst of all,
+the
+*addition of the overriding test*,
+the
+*breakage of the overridden test*,
+and the
+*problem that results in prod*
+can be apart by
+days,
+months,
+or even your years.
+
 ### Pylint finds it
 
 ```{=latex}
@@ -99,6 +157,13 @@ test.py:8:0: E0102: function already defined line 1
 
 \end{frame}
 ```
+
+But like a good friend,
+PyLint is there for you
+when the test becomes moo.
+Moo,
+like a cow's opinion:
+it doesn't matter.
 
 ## The Bad
 
@@ -125,6 +190,30 @@ class Laptop:
 \end{frame}
 ```
 
+But,
+like a 90s sitcom,
+the more you get into
+PyLint,
+the more it becomes problematic.
+
+This is completely reasonable code
+for an inventory modeling program.
+Yet,
+PyLint has opinions formed in the 90s,
+and is not afraid to state them as facts.
+
+But,
+like a 90s sitcom,
+the more you get into
+PyLint,
+the more it becomes problematic.
+
+This is completely reasonable code
+for an inventory modeling program.
+Yet,
+PyLint has opinions formed in the 90s,
+and is not afraid to state them as facts.
+
 
 ```{=latex}
 \begin{frame}[fragile]
@@ -138,7 +227,11 @@ R0903: Too few public methods (0/2) (too-few-public-methods)
 \end{frame}
 ```
 
-## The Ugly (3m)
+OK,
+PyLint.
+You do you.
+
+## The Ugly
 
 ```{=latex}
 \begin{frame}[fragile]
@@ -151,7 +244,15 @@ PyLint issue 6987, July 3rd, 2022
 \end{frame}
 ```
 
-## Summary (3m)
+Ever wanted to add your own
+unvetted opinion
+to a tool used by millions?
+PyLint has 12 million monthly downloads.
+
+The attitude it takes towards adding a test with potentially many false positives is
+"eh".
+
+## Summary
 
 ### Pin
 
@@ -198,6 +299,11 @@ def refresh_deps(session):
 \end{frame}
 ```
 
+PyLint is fine,
+but you need to interact with it carefully.
+Pin the PyLint version you use
+to avoid any surprises!
+
 ## Default deny
 
 ```{=latex}
@@ -225,6 +331,12 @@ def lint(session):
 \end{frame}
 ```
 
+Disable all checks.
+Then enable ones that you think have a high
+value-to-false-positive
+ratio.
+(Not just false-negative-to-false-positive ratio!)
+
 ### A Few of My Favorite Things
 
 ```{=latex}
@@ -247,6 +359,10 @@ checkers = [
 \end{frame}
 ```
 
+These are some of the ones I like.
+Enforce consistency in the project,
+avoid some obvious mistakes
+
 ```{=latex}
 \begin{frame}
 \frametitle{PyLint}
@@ -256,14 +372,33 @@ checkers = [
       CI \pause
       Checkers \pause
 \item Lose the bad:
-      \pause (default deny)
+      \pause Default deny
       \pause
 \item Avoid the ugly: \pause
-      pin
+      Pin
 \end{itemize}
 
 \end{frame}
 ```
+
+Take the good parts of PyLint:
+run it in CI to keep consistency,
+use the highest value checkers.
+
+Lose the bad parts of PyLint:
+default deny checkers.
+
+Avoid the ugly parts:
+pin the version to avoid surprises.
+
+Unlike the facts of life,
+here we get to only take the good parts!
+And there you have the facts of PyLint.
+
+
+
+
+
 
 ```{=latex}
 \end{document}

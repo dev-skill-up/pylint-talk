@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.14)  6 AUG 2022 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.14)  7 AUG 2022 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,32 +482,41 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102     cpu:
-               str [1]
+l.106 
+       [1]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-11.
+61.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
 
-Overfull \hbox (15.00366pt too wide) in paragraph at lines 112--113
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 162--163
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[2] [3] (./handout.aux)
-Package rerunfilecheck Info: File `handout.out' has not changed.
-(rerunfilecheck)             Checksum: 0E5935E163ABAE17A02FCC7140A5E82D;631.
+[2] [3] [4] (./handout.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `handout.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `handout.out':
+(rerunfilecheck)             Before: 0E5935E163ABAE17A02FCC7140A5E82D;631
+(rerunfilecheck)             After:  8DF914D00AC91D4CE3382B682CB45E31;610.
  ) 
 Here is how much of TeX's memory you used:
- 10962 strings out of 481252
- 166719 string characters out of 5915888
- 668691 words of memory out of 5000000
- 27528 multiletter control sequences out of 15000+600000
+ 10969 strings out of 481252
+ 166786 string characters out of 5915888
+ 671076 words of memory out of 5000000
+ 27532 multiletter control sequences out of 15000+600000
  410047 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 129i,6n,133p,228b,1930s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 129i,6n,133p,228b,1926s stack positions out of 5000i,500n,10000p,200000b,80000s
  </opt/kalyke/homedir/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti
 1000.600pk> </opt/kalyke/homedir/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
@@ -517,10 +526,10 @@ x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on handout.pdf (4 pages, 105767 bytes).
+Output written on handout.pdf (5 pages, 110981 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 125 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
