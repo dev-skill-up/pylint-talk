@@ -37,8 +37,10 @@
 \headcommand {\beamer@subsubsectionentry {0}{0}{5}{1}{12}{A Few of My Favorite Things}}
 \headcommand {\slideentry {0}{5}{2}{12/12}{Default deny}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {11}{12}}
-\headcommand {\beamer@sectionpages {1}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\gdef \inserttotalframenumber {12}}
+\headcommand {\slideentry {0}{5}{3}{13/19}{Default deny}{0}}
+\headcommand {\beamer@framepages {13}{19}}
+\headcommand {\beamer@partpages {1}{19}}
+\headcommand {\beamer@subsectionpages {11}{19}}
+\headcommand {\beamer@sectionpages {1}{19}}
+\headcommand {\beamer@documentpages {19}}
+\headcommand {\gdef \inserttotalframenumber {13}}

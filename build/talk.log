@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.14)  6 AUG 2022 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.14)  6 AUG 2022 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,6 +952,33 @@ Overfull \hbox (60.63396pt too wide) in paragraph at lines 14--15
  (./talk.vrb) [12
 
 ]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 225
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 225
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [13
+
+] [14
+
+] [15
+
+]
+[16
+
+] [17
+
+] [18
+
+] [19
+
+]
 \tf@nav=\write7
 \openout7 = `talk.nav'.
 
@@ -969,11 +996,11 @@ Package rerunfilecheck Info: File `talk.out' has not changed.
 (rerunfilecheck)             Checksum: 7BA4A5C2A1EF6EE47AFE013856BFCDFB;259.
  ) 
 Here is how much of TeX's memory you used:
- 19836 strings out of 481252
- 365363 string characters out of 5915888
- 869181 words of memory out of 5000000
- 36294 multiletter control sequences out of 15000+600000
- 406876 words of font info for 38 fonts, out of 8000000 for 9000
+ 19921 strings out of 481252
+ 366999 string characters out of 5915888
+ 869111 words of memory out of 5000000
+ 36348 multiletter control sequences out of 15000+600000
+ 411069 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  112i,14n,116p,429b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
  </opt/kalyke/homedir/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsi
@@ -982,11 +1009,12 @@ n/ec/tcss1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 s12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on talk.pdf (12 pages, 75878 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on talk.pdf (19 pages, 94753 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 49 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

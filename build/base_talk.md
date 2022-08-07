@@ -248,10 +248,6 @@ checkers = [
 ```
 
 ```{=latex}
-\end{document}
-```
-
-```{=latex}
 \begin{frame}
 \frametitle{PyLint}
 
@@ -267,4 +263,8 @@ checkers = [
 \end{itemize}
 
 \end{frame}
+```
+
+```{=latex}
+\end{document}
 ```
